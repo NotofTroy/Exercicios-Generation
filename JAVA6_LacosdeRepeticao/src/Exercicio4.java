@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Exercicio4 {	
 	
 	public static void main(String[] args) {
+		
 		Scanner userInput = new Scanner(System.in);
+		
 		int age, genderIdentity, developerType;
 		char shouldLoopContinue = 's';
 		int backendDevCount = 0, 

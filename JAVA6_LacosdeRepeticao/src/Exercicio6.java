@@ -13,7 +13,6 @@ public class Exercicio6 {
 			number = userInput.nextInt();
 			
 			if (number != 0 && number % 3 == 0) {
-				System.out.println("O número " + number + "é multiplo de 3!");
 				multipleofThreeCount++;
 				multipleofThreeSum += number;
 			}
