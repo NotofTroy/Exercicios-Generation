@@ -12,7 +12,7 @@ public class Exercicio3 {
 		Set<Integer> integerList = new HashSet<Integer>();
 		Iterator<Integer> integerListIterator = integerList.iterator();
 		
-		Integer number = Integer.valueOf(0);
+		Integer number;
 		
 		
 		for (int i = 0; i < 10; i++) {
