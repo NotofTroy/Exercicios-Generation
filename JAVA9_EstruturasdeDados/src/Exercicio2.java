@@ -41,7 +41,7 @@ public class Exercicio2 {
 				
 				System.out.println("Insira o nome do livro que deseja adicionar: ");
 				bookName = userInput.nextLine();
-				bookStack.add(bookName);
+				bookStack.push(bookName);
 				
 				System.out.println("\nLivro Adicionado!");
 				
